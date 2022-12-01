@@ -1,4 +1,3 @@
-lines (10 sloc)  550 Bytes
 import os
 
 class Config(object):
