@@ -8,4 +8,4 @@ class Config(object):
     # Add numbers below who shouldn't be bombed ever
     NO_BOMB_NUMS = os.environ.get("NO_BOMB_NUMS", "9660221717")
     # Add userids below of users who should have sudo authority over bot, i.e., have no bombing limits
-    GOD_USERS = os.environ.get("2037257558", "")
+    GOD_USERS = os.environ.get("GOD_USERS", "2037257558")
